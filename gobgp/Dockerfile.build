@@ -1,0 +1,7 @@
+FROM golang:1.7-alpine3.5
+
+RUN apk add --no-cache \
+      gcc \
+      git \
+      linux-headers \
+      musl-dev
